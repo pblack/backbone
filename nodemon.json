@@ -1,0 +1,4 @@
+{
+  "ignore": [ "bsfy/**", "hbs/**", "build/**", "public/**" ]
+  
+}

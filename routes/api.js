@@ -5,7 +5,8 @@ var app = express();
 var rest = expressRest(app);
 
 var checks = [{
-  name: "hamish bar",
+  firstName: "hamish",
+  lastName: "bar",
   email: "foo@bar.com",
   address1: "123 Some Streete",
   city: "Some City",
@@ -25,7 +26,8 @@ var checks = [{
     designations: []
   }]
 }, {
-  name: "chocolate",
+  firstName: "chocolate",
+  lastName: "bar",
   email: "foo@bar.com",
   address1: "123 Some Streete",
   city: "Some City",
@@ -35,7 +37,8 @@ var checks = [{
   receivedDate: new Date(),
   checkDate: new Date(),
 }, {
-  name: "donut",
+  firstName: "donut",
+  lastName: "king",
   email: "foo@bar.com",
   address1: "123 Some Streete",
   city: "Some City",

@@ -4,7 +4,7 @@ var Backbone = require('backbone');
 var CheckCollection = Backbone.Collection.extend(
     {
       url: '/api/checks/'
-    }
+    }  
 );
 
 var checks = new CheckCollection();
